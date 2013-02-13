@@ -1,7 +1,7 @@
 usbnetpower
 ===========
 
-This is a fork of [usbnetpower](http://code.google.com/p/usbnetpower8800/) by Paul Marks that includes an install script. It also includes one extra command: reboot.
+This is a fork of [usbnetpower](http://code.google.com/p/usbnetpower8800/) by Paul Marks. It includes an install script.
 
 The install script will:
 
@@ -12,4 +12,6 @@ The install script will:
 Example Usage
 =============
 
-`power on`
+    power on
+    power reboot
+    power query
