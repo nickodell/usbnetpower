@@ -43,10 +43,6 @@
 import sys
 import usb.core
 
-usage = (
-    "Controller for the USB Net Power 8800\n"
-    "Usage: %s on|off|toggle|query|reboot\n")
-
 
 class Power(object):
     def __init__(self):
@@ -89,6 +85,9 @@ def main(argv):
         time.sleep(5)
         power.Set(True)
     else:
+        usage = (
+           "Controller for the USB Net Power 8800\n"
+           "Usage: %s on|off|toggle|query|reboot\n")
         sys.stdout.write(usage % argv[0])
         return -1
     return 0
