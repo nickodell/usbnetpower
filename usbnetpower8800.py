@@ -42,6 +42,7 @@
 
 import sys
 import usb.core
+import time
 
 
 class Power(object):
